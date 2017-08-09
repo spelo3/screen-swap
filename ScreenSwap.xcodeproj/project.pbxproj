@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9B0077821E9EEA370069EAB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0077811E9EEA370069EAB7 /* AppDelegate.swift */; };
-		9B0077841E9EEA370069EAB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0077831E9EEA370069EAB7 /* ViewController.swift */; };
+		9B0077841E9EEA370069EAB7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0077831E9EEA370069EAB7 /* LoginVC.swift */; };
 		9B0077871E9EEA370069EAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0077851E9EEA370069EAB7 /* Main.storyboard */; };
 		9B0077891E9EEA370069EAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0077881E9EEA370069EAB7 /* Assets.xcassets */; };
 		9B00778C1E9EEA370069EAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B00778A1E9EEA370069EAB7 /* LaunchScreen.storyboard */; };
+		9B0077941E9F01000069EAB7 /* HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0077931E9F01000069EAB7 /* HomePageVC.swift */; };
+		9B0077961E9F09DA0069EAB7 /* SongListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0077951E9F09DA0069EAB7 /* SongListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B00777E1E9EEA360069EAB7 /* ScreenSwap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSwap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0077811E9EEA370069EAB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B0077831E9EEA370069EAB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B0077831E9EEA370069EAB7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9B0077861E9EEA370069EAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B0077881E9EEA370069EAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B00778B1E9EEA370069EAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B00778D1E9EEA370069EAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0077931E9F01000069EAB7 /* HomePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageVC.swift; sourceTree = "<group>"; };
+		9B0077951E9F09DA0069EAB7 /* SongListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,13 @@
 		9B0077801E9EEA360069EAB7 /* ScreenSwap */ = {
 			isa = PBXGroup;
 			children = (
-				9B0077811E9EEA370069EAB7 /* AppDelegate.swift */,
-				9B0077831E9EEA370069EAB7 /* ViewController.swift */,
-				9B0077851E9EEA370069EAB7 /* Main.storyboard */,
 				9B0077881E9EEA370069EAB7 /* Assets.xcassets */,
+				9B0077851E9EEA370069EAB7 /* Main.storyboard */,
 				9B00778A1E9EEA370069EAB7 /* LaunchScreen.storyboard */,
+				9B0077811E9EEA370069EAB7 /* AppDelegate.swift */,
+				9B0077831E9EEA370069EAB7 /* LoginVC.swift */,
+				9B0077931E9F01000069EAB7 /* HomePageVC.swift */,
+				9B0077951E9F09DA0069EAB7 /* SongListVC.swift */,
 				9B00778D1E9EEA370069EAB7 /* Info.plist */,
 			);
 			path = ScreenSwap;
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0077841E9EEA370069EAB7 /* ViewController.swift in Sources */,
+				9B0077841E9EEA370069EAB7 /* LoginVC.swift in Sources */,
 				9B0077821E9EEA370069EAB7 /* AppDelegate.swift in Sources */,
+				9B0077941E9F01000069EAB7 /* HomePageVC.swift in Sources */,
+				9B0077961E9F09DA0069EAB7 /* SongListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				9B0077921E9EEA370069EAB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
